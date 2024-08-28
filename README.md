@@ -1,5 +1,6 @@
 # PUI homework
 
-Deployed website: `add the URL to your deployed website`
+Deployed website: https://lfarkas4.github.io/pui-hw-lfarkas/
 
-Repository link: `add the URL to this repository`
+Repository link: https://github.com/lfarkas4/pui-hw-lfarkas/tree/main
+
