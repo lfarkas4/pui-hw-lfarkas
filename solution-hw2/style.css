@@ -14,14 +14,14 @@ header {
 
 .header {
     display: flex;
-    align-items: center; /* Center items vertically */
+    align-items: center;
     padding: 10px;
 }
 
 .logo-link {
     display: flex;
     align-items: center;
-    margin-right: 20px; /* Space between the logo and the line */
+    margin-right: 20px;
 }
 
 .logo {
@@ -30,19 +30,26 @@ header {
 }
 
 .line {
-    flex: 1; /* Makes the line take up the remaining space */
-    border-bottom: 4px solid #000; /* Styles the horizontal line */
+    flex: 1;
+    border-bottom: 4px solid #000;
 }
 
-.cartimg {
+.cartimg, .product-image-cart {
     width: 200px;
     border: 2px solid black;
     margin: 0;
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
 .galimg {
-    width: 400px;
-    height: 400px;
+    width: 285px;
+    height: 285px;
     border: 2px solid black;
     margin: 0;
 }
@@ -51,7 +58,7 @@ header {
     width: 600px;
     height: 600px;
     border: 2px solid black;
-    margin: 0;
+    margin-right: 30px;
 }
 
 h1 {
@@ -74,8 +81,9 @@ hr {
     background-color: #000000;
 }
 
-.remove {
-    font-size: 13px;
+.remove-cart, .remove {
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .nav {
@@ -98,7 +106,6 @@ p {
 .center {
     text-align: center;
 }
-
 
 .checkout {
     border: 2px solid #000000;
@@ -125,10 +132,46 @@ p {
     font-weight: bold;
 }
 
+.product-detail {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    max-width: 500px;
+    text-align: left;
+}
+
+.product-info p {
+    margin-bottom: 10px;
+}
+
+.product-info select {
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.option-group {
+    margin-bottom: 20px;
+}
+
+.option-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
 .deckout {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .navbar {
@@ -151,7 +194,7 @@ p {
 
 .container {
     display: flex;
-    flex-direction: column; /* Stack rows vertically */
+    flex-direction: column;
     width: 80%;
     margin: auto;
 }
@@ -161,16 +204,23 @@ p {
     padding-right: 10px;
 }
 
-.row {
+.row-cart {
     display: flex;
-    justify-content: space-between; /* Space out columns evenly */
-    flex-wrap: wrap; /* Allow wrapping to the next line if needed */
-    margin-bottom: 20px; /* Space between rows */
+    flex-wrap: wrap;
+    gap: 0px;
+    margin-bottom: 10px;
 }
 
-.column {
-    flex: 0 0 30%; /* Basis of 30% width for each column */
-    margin: 10px 0; /* Margin around columns */
+.column-cart-1, .column.cart {
+    flex: 1 1 30%;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cart-text {
+    text-align: left;
+    margin: 10px;
     padding: 10px;
 }
 
@@ -178,7 +228,7 @@ p {
     background-color: yellow;
 }
 
-.highlight:hover .bold{
+.highlight:hover .bold {
     font-weight: bold;
 }
 
@@ -189,9 +239,21 @@ p {
     margin-right: auto;
 }
 
+select {
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+}
 
-
+.parent {
+    width: 60%;
+    margin: 20px auto;
+}
 
 /*
   Help and resources for this stylesheet were sourced from W3Schools and HubSpot.
 */
+
