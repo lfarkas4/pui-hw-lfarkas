@@ -7,7 +7,18 @@ class Roll {
     }
 
     calculatePrice(glazingPrice) {
-        return (this.basePrice + glazingPrice) * this.size;
+        const multiplier = this.getMultiplier();
+        return (this.basePrice + glazingPrice) * multiplier;
+    }
+
+    getMultiplier() {
+        switch (this.size) {
+            case 1: return 1;
+            case 3: return 3;
+            case 6: return 5; 
+            case 12: return 10;
+            default: return 1;
+        }
     }
 }
 

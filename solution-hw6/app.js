@@ -82,14 +82,12 @@ function addToCart() {
   const packSizeOption = parseInt(document.getElementById('pack-size').selectedOptions[0].text);
   const rollPrice = getBasePrice();
 
-  const packMultiplier = packSizeOptions.find(option => option.size === packSizeOption).multiplier;
-  const roll = new Roll(rollType, glazing, packMultiplier, rollPrice);
+  const roll = new Roll(rollType, glazing, packSizeOption, rollPrice);
   let cart = JSON.parse(localStorage.getItem(cartKey)) || [];
   cart.push(roll);
   localStorage.setItem(cartKey, JSON.stringify(cart));
   
   alert(`${rollType} cinnamon roll with ${glazing} and pack size ${packSizeOption} added to cart!`);
-  console.log(cart);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
