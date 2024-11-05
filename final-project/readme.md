@@ -125,31 +125,49 @@ Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-gener
 
 ## Project Description
 
-Briefly restate your motivation and a short description of your project.
+For my final project, I chose to redesign my personal portfolio. The motivation behind this decision is to create an engaging, interactive platform that effectively showcases my skills, projects, and experiences while providing a visually appealing and seamless user experience. I wanted a design that highlights my work through dynamic elements and smooth animations, capturing the attention of potential clients or employers and leaving a lasting impression.
+
+The basic idea of the project is to build a dynamic personal portfolio that uses hover animations and transitions to reveal project details in an engaging way. The portfolio will include sections like my biography, skills, project descriptions, testimonials, and contact information. These elements will be presented in a clean, interactive design that responds well to different screen sizes, ensuring accessibility and usability across all devices. The goal is to not only demonstrate my design abilities but also to make the process of exploring my work as enjoyable and immersive as possible for users.
 
 ## High-Fi Prototypes
 
 ### *Prototype 1*
 
+Add links of your 2 high-fi prototypes that the teaching team can experiment with, and add a brief summary of the user feedback for each. Use about max. 1 page (<100 words, ~2 images) per prototype. Include a video clip showcasing all interactions.
 ![title for prototype1](images/prototype1.png)
 
 A brief description and summary of the user feedback (\<100 words, 2 images) 
+The home page received positive feedback for its clean and minimalistic design, with users appreciating the interactive hover animations on the project thumbnails. Reviewers highlighted how the animations effectively drew attention to the project details, making it more engaging. However, a few users suggested adding a clear call-to-action (CTA) near the top of the page to guide visitors to key sections (e.g., portfolio, contact info). Overall, the home page was seen as visually appealing and user-friendly, but I plan to refine the CTA for better navigation.
 
 ### *Prototype 2*
 
-…
+The About Me page was praised for its clear layout and concise content. The profile image and bio were well-received, helping users feel connected with the designer. Some feedback suggested adjusting the typography for better readability, especially for longer sections of text. There was also a recommendation to add more interactive elements, such as a timeline of my career or interactive project highlights. These features could further engage users and give them more insight into my background. Overall, the page felt personal and informative, but could use a bit more visual flair.
 
 ## Usability Test
 
-Discuss the user feedback you got during the evaluation / usability test (\~300 words). Indicate which feedback you implemented, inspired new directions, or otherwise influenced your final design. 
+In addition to the specific feedback I received on the home and About Me pages, the overall usability test provided deeper insights that shaped my final design choices. One of the most consistent pieces of feedback across both pages was the importance of interactivity in keeping users engaged. The interactive hover effects on the home page were well-received, but users emphasized the need for smoother transitions and more intuitive animations. In response, I refined the animations to ensure that they were both visually appealing and functional, with a focus on providing clear, easily digestible project information as users interact with the page.
+
+Another piece of feedback I implemented was related to accessibility. On both the home and About Me pages, users noted the importance of making sure text was legible for all audiences. For the home page, I made the text contrast sharper against the background and ensured that hover effects were not too fast, giving users time to engage with the content. On the About Me page, users highlighted the need for better typographic hierarchy, particularly for longer sections of text. This led me to increase the font size for body text and adjust the line spacing to improve readability.
+
+The feedback about adding a clear call-to-action (CTA) on the home page inspired a new design direction. Originally, I had focused on a more subtle navigation style, but based on user input, I added a more prominent CTA at the top of the home page, directing visitors to key sections like my portfolio, contact info, and a downloadable resume. This change aligns with the goal of making the portfolio more user-friendly, as it ensures that visitors can quickly access the most important information.
+
+Finally, users on the About Me page suggested that I integrate more dynamic elements, such as an interactive career timeline. This feedback led me to explore a more creative approach to storytelling by integrating a clickable, scrollable timeline that highlights key moments in my design journey. This addition not only enhanced the page's interactivity but also helped break up large chunks of text, making the content feel more engaging.
 
 ## Updated Designs
 
 Show screenshots of your updated design based on the user feedback (\<100 words, \~2 images).
 
+The updated home page now features a more prominent call-to-action (CTA) at the top, directing users to key sections like my portfolio and contact information. The hover animations on project thumbnails are smoother and more intuitive, with improved transitions that provide clear, concise project details. The navigation is more intuitive, ensuring visitors can easily access the most important sections of the site.
+
+The About Me page has been enhanced with improved typography for better readability, including larger font sizes and more space between lines. I've also integrated an interactive career timeline, allowing users to explore my professional journey in a more engaging way. The addition of clickable project highlights helps break up the text and provides visitors with a more dynamic, visually interesting experience.
+
 ## Feedback Summary
 
-Summarize the feedback you received in the lab session and discuss how it influenced your design (\~300 words). 
+During the lab session, I received feedback that was instrumental in refining both the content and interactivity of my portfolio design. One of the key points emphasized was the importance of clarity and accuracy in the language used throughout the site. Several users suggested that I revise some of the wording in the Home section to better reflect my professional experience and skills. The feedback prompted me to rethink certain phrases to ensure they were more precise and aligned with the tone I wanted to convey. For example, I changed phrases like "Lana Farkas is an aspiring UX/UI Designer" to "Lana Farkas is a UX/UI Designer," which more accurately describes my skill set and experience.
+
+In addition to language adjustments, the feedback also highlighted the need for more interactive elements to enhance user engagement. Users suggested that the About Me page, in particular, felt static and could benefit from features that would encourage deeper exploration. As a result, I integrated an interactive career timeline that allows visitors to click through key milestones in my professional journey. This feature not only adds an element of fun but also breaks up the text, making the page more dynamic and visually engaging.
+
+The home page also benefited from similar feedback. While users appreciated the hover animations, there was a suggestion to make them even more intuitive and informative. I revised the hover effects so that they not only reveal more project details but also allow users to interact more naturally with the content. The addition of a clearer call-to-action (CTA) was also a direct result of the feedback, ensuring that visitors could easily navigate to important sections of the portfolio.
 
 ## Milestones
 
@@ -157,20 +175,38 @@ Outline weekly milestones to plan your expected implementation progress until th
 
 ### *Implementation Plan*
 
-- [ ] Week 9 Oct 28 \- Nov 1:
+- [X] Week 9 Oct 28 \- Nov 1:
   - [X] FP1 due
-  - [ ] ...
+  - [X] Develop usability test plan
+  - [X] Finalize Home Page and About Me Page designs
+  - [X] Prototype designs for testing
+  - [X] Synthesize testing findings + lab evaluation
   
 - [ ] Week 10 Nov 4 \- Nov 8:   
-  - [ ] FP2 due
+  - [X] FP2 due
+  - [ ] Incorporate feedback from usability testing (animations, interactivity, typography)
+  - [ ] Begin integrating responsive design
 
-- [ ] Week 11 Nov 11 \- Nov 15:  
-- [ ] Week 12 Nov 18 \- Nov 22:   
+- [ ] Week 11 Nov 11 \- Nov 15: 
+  - [ ] FP3 due
+  - [ ] Work on Home Page features
+  - [ ] Finish features for lab evaluations
+  - [ ] Start working on About Page
+
+- [ ] Week 12 Nov 18 \- Nov 22:  
+  - [ ] Continue iterating on layout
+  - [ ] Complete all interactive features for About Page
+
 - [ ] Week 13 Nov 25 \- Nov 29:  
-
+  - [ ] Continue iterating on rest of site layout
+  - [ ] Complete all interactivity for rest of site (finish project outlines)
+  - [ ] Clean up bugs + issues with site
   - [ ] Thanksgiving  
+
 - [ ] Week 14 Dec 2 \- Dec 6:  
   - [ ] FP4 due 
+  - [ ] Finish FP4 write-up
+
 
 ### *Libraries and Other Components*
 
@@ -195,6 +231,7 @@ Outline how you plan to use Generative AI tools to aid in the implementation (\~
 ### *Responsible Use*
 
 How would you use Generative AI responsibly? 
+
 
 ---
 
