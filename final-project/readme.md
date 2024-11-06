@@ -134,14 +134,23 @@ The basic idea of the project is to build a dynamic personal portfolio that uses
 ### *Prototype 1*
 
 Add links of your 2 high-fi prototypes that the teaching team can experiment with, and add a brief summary of the user feedback for each. Use about max. 1 page (<100 words, ~2 images) per prototype. Include a video clip showcasing all interactions.
-![title for prototype1](images/prototype1.png)
+![Home Page](images/MainPortfolio.png)
 
 A brief description and summary of the user feedback (\<100 words, 2 images) 
 The home page received positive feedback for its clean and minimalistic design, with users appreciating the interactive hover animations on the project thumbnails. Reviewers highlighted how the animations effectively drew attention to the project details, making it more engaging. However, a few users suggested adding a clear call-to-action (CTA) near the top of the page to guide visitors to key sections (e.g., portfolio, contact info). Overall, the home page was seen as visually appealing and user-friendly, but I plan to refine the CTA for better navigation.
 
+Figma Link: 
+Video Link: 
+
+
 ### *Prototype 2*
+![About Page](images/AboutPortfolio.png)
 
 The About Me page was praised for its clear layout and concise content. The profile image and bio were well-received, helping users feel connected with the designer. Some feedback suggested adjusting the typography for better readability, especially for longer sections of text. There was also a recommendation to add more interactive elements, such as a timeline of my career or interactive project highlights. These features could further engage users and give them more insight into my background. Overall, the page felt personal and informative, but could use a bit more visual flair.
+
+Figma Link: 
+Video Link: 
+
 
 ## Usability Test
 
@@ -156,6 +165,8 @@ Finally, users on the About Me page suggested that I integrate more dynamic elem
 ## Updated Designs
 
 Show screenshots of your updated design based on the user feedback (\<100 words, \~2 images).
+![Updated Home Page](images/Update1.png)
+![Updated About Page](images/Update2.png)
 
 The updated home page now features a more prominent call-to-action (CTA) at the top, directing users to key sections like my portfolio and contact information. The hover animations on project thumbnails are smoother and more intuitive, with improved transitions that provide clear, concise project details. The navigation is more intuitive, ensuring visitors can easily access the most important sections of the site.
 
