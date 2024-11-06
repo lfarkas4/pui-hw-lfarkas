@@ -134,22 +134,20 @@ The basic idea of the project is to build a dynamic personal portfolio that uses
 ### *Prototype 1*
 
 Add links of your 2 high-fi prototypes that the teaching team can experiment with, and add a brief summary of the user feedback for each. Use about max. 1 page (<100 words, ~2 images) per prototype. Include a video clip showcasing all interactions.
+
+Figma Link for Home + About: https://www.figma.com/proto/1hwHIUSv0WYk3UJ5tOBiJK/Lana's-Portfolio?node-id=19-3&node-type=canvas&t=mcTvWy9G8m8KtiBP-1&scaling=min-zoom&content-scaling=fixed&page-id=6%3A14&starting-point-node-id=19%3A3
+Video Link for Home + About: (images/[PortfolioDemo.mov])
+
 ![Home Page](images/MainPortfolio.png)
 
 A brief description and summary of the user feedback (\<100 words, 2 images) 
 The home page received positive feedback for its clean and minimalistic design, with users appreciating the interactive hover animations on the project thumbnails. Reviewers highlighted how the animations effectively drew attention to the project details, making it more engaging. However, a few users suggested adding a clear call-to-action (CTA) near the top of the page to guide visitors to key sections (e.g., portfolio, contact info). Overall, the home page was seen as visually appealing and user-friendly, but I plan to refine the CTA for better navigation.
-
-Figma Link: 
-Video Link: 
 
 
 ### *Prototype 2*
 ![About Page](images/AboutPortfolio.png)
 
 The About Me page was praised for its clear layout and concise content. The profile image and bio were well-received, helping users feel connected with the designer. Some feedback suggested adjusting the typography for better readability, especially for longer sections of text. There was also a recommendation to add more interactive elements, such as a timeline of my career or interactive project highlights. These features could further engage users and give them more insight into my background. Overall, the page felt personal and informative, but could use a bit more visual flair.
-
-Figma Link: 
-Video Link: 
 
 
 ## Usability Test
@@ -165,8 +163,8 @@ Finally, users on the About Me page suggested that I integrate more dynamic elem
 ## Updated Designs
 
 Show screenshots of your updated design based on the user feedback (\<100 words, \~2 images).
-![Updated Home Page](images/Update1.png)
-![Updated About Page](images/Update2.png)
+![Updated Home Page](images/HomeUpdate.png)
+![Updated About Page](images/AboutUpdate.png)
 
 The updated home page now features a more prominent call-to-action (CTA) at the top, directing users to key sections like my portfolio and contact information. The hover animations on project thumbnails are smoother and more intuitive, with improved transitions that provide clear, concise project details. The navigation is more intuitive, ensuring visitors can easily access the most important sections of the site.
 
@@ -222,27 +220,37 @@ Outline weekly milestones to plan your expected implementation progress until th
 ### *Libraries and Other Components*
 
 List the JS libraries and other components (if applicable) that you plan to use. 
-* 
+* React.js - building the user interface, leveraging its component-based architecture for modularity and reusability.
+* Framer Motion - implementing smooth animations and transitions, particularly for hover effects, page transitions, and interactive elements.
 
 
 ## Generative AI Use Plan
 
 Outline how you plan to use Generative AI tools to aid in the implementation (\~300 words).
 
+For the implementation of my dynamic personal portfolio, I plan to use Generative AI tools in several key areas to enhance both the technical and content aspects of the project. First, ChatGPT will assist with refining the textual content across my portfolio, including the "About Me" section, project descriptions, and call-to-action (CTA) elements. I aim to ensure the language is clear, engaging, and tailored to my target audience, which includes potential clients and employers. AI will help generate variations or suggestions to improve these sections, making them more concise and compelling. However, I will ensure that I don’t rely solely on AI for content creation and will maintain a strong personal voice in the copy.
+
+Next, I plan to leverage ChatGPT for analyzing and synthesizing insights from usability testing. AI can assist in identifying patterns or areas for improvement based on user feedback, especially concerning usability, interactivity, and accessibility. For example, if users mention issues with readability or navigation, AI can suggest specific refinements. While AI will provide helpful recommendations, I understand that it cannot replace the authenticity of real user testing.
+
+On the technical side, ChatGPT will be useful for troubleshooting coding issues and providing best practices related to React.js and Framer Motion, especially for smooth animations and responsiveness. If I encounter challenges with hover effects or page transitions, I can ask AI for optimization suggestions or solutions. However, I will not rely on AI to build entire features without thorough testing, as I know the importance of ensuring that these components work seamlessly.
+
+Additionally, AI will be valuable for brainstorming new features or interactive elements. For instance, following feedback about adding a career timeline, I might use AI to explore creative ways to make this feature more engaging or interactive. However, the final decisions about these features will be based on my own design choices and user feedback. Finally, AI will assist in ensuring the portfolio meets accessibility standards. I plan to use it for suggestions on improving text legibility, color contrast, and other inclusivity considerations. While AI can provide guidance, I will ensure all accessibility changes are tested and verified with real users.
+
 ### *Tool Use*
 
  What would you use? Edit the list given your plan. For each tool, explain briefly on what do you expect Generative AI to help you with and what might it not be able to help you with.
 
 * ChatGPT  
-  * I will use it for … because it can help me …  
-  * I will not use it for … because it might not be able to help me with …   
-* GitHub Copilot  
-* ...
+  * I will use it for refining text, especially in areas where I need help articulating or rephrasing content for clarity, conciseness, and engagement. For example, improving the wording in the "About Me" section, crafting more impactful project descriptions, or generating ideas for more compelling calls-to-action (CTAs). 
+  * I will use it to help me brainstorm or refine the insights from usability testing. It can also help formulate test questions or scenarios that focus on improving UX/UI design, accessibility, or user engagement.
+  * I will use it to assist with coding-related questions or best practices (e.g., when troubleshooting React.js or Framer Motion issues) and provide suggestions for optimizing animations or interactivity.
+  * I will not use it for making design decisions. While it can assist with content and provide feedback, it won’t help with visual design elements like layout, color schemes, or font choices.
+  * I will not use it for writing entire features or building a complex structure, since this requires deep domain knowledge and testing.
 
 ### *Responsible Use*
 
 How would you use Generative AI responsibly? 
-
+I would use Generative AI responsibly by ensuring that the content and suggestions it generates align with ethical standards, respect intellectual property, and prioritize user privacy and safety. Specifically, I would double-check any information provided by AI, especially when it comes to data or advice that could impact decisions. AI is helpful for generating ideas or structuring content, but human oversight is crucial for ensuring accuracy and relevance. Additionally, I will ensure originality by not relying on AI-generated content for anything that might infringe on copyrights or fail to acknowledge the appropriate sources. If generating text, code, or other content, I'd make sure it doesn't replicate or plagiarize existing work. Lastly, I would use AI as a tool for enhancing my work, not as a substitute for human decision-making. For design-related tasks, I would still make final decisions based on user feedback, context, and expert knowledge.
 
 ---
 
