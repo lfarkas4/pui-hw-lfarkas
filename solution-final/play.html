@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lana's Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="home.html"><img src="../final-project/portfolio/LANALOGO.png" alt="Lana's Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Work</a></li>
+                <li><a href="play.html">Play</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://drive.google.com/uc?export=download&id=1i2HTTkdQ7d8y65Tg2fxLRRmYG0gy3Zv-" target="_blank">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Memory Game Section -->
+    <section id="memory-game" class="memory-game">
+        <h1>Let’s Play a Game...</h1>
+        <p>Can you match my fun facts with the right doodles? Let’s find out!</p>
+        <div id="game-container" class="game-container">
+            <!-- Cards will be dynamically inserted here using JavaScript -->
+        </div>
+        <div id="game-status" class="game-status">
+            <p id="moves-count">Moves: 0</p>
+            <p id="game-completion" style="display:none;">You’ve matched all pairs!</p>
+            <button id="restart-button" style="display:none;" onclick="restartGame()">Restart Game</button>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+    <script src="play.js"></script>
+</body>
+</html>

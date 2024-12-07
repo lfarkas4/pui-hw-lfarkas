@@ -13,41 +13,98 @@ Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/
 
 Describe your website (300 words).
 
-* What is the purpose of your website?   
+* What is the purpose of your website?
+My portfolio website is designed to showcase my professional work and personal background in an interactive and engaging way, with a particular focus on my skills as a UX/UI designer. The website’s purpose is to provide potential employers, clients, and collaborators with an immersive experience that goes beyond a static portfolio. It offers an easy-to-navigate yet dynamic presentation of my skills, projects, and personal facts, helping visitors better connect with me both professionally and personally.
 * Who is the target audience?  
-* What information do you convey with your website?   
+The target audience includes employers, clients, and colleagues in the design industry who are interested in learning more about my work and qualifications. Additionally, the website appeals to anyone seeking inspiration in design or who might want to collaborate on projects.
+* What information do you convey with your website? 
+My website conveys a comprehensive overview of both my professional and personal identity as a UX/UI designer. It highlights my education, work experience, and aspirations, while also giving visitors a glimpse into my personality and interests.
+- Homepage introduces me with a brief and engaging description of my work and passion for design, along with a playful tone that showcases my sense of humor.
+- Portfolio displays key UX/UI projects, illustrating my skills and collaborations with others on impactful applications, with upcoming project details.
+- Play offers an interactive memory game, where users can match fun facts about me with corresponding illustrations, adding a personal and engaging touch.
+- About details my academic background, current studies, work experience, and hobbies, offering a well-rounded view of my professional journey and personal interests.
+- Resume provides a downloadable PDF for a more formal, in-depth look at my qualifications and experience.  
 * How is it interesting and engaging? 
+The website is engaging through its blend of interactive, informative, and playful elements. The "Play" page features a fun memory game where users match personal facts with doodles, offering a lighthearted way to learn about me. The "About" section shares not just my qualifications but also personal hobbies and goals, creating a relatable and human touch. The "Portfolio" page showcases my work with visually appealing layouts, and the playful tone throughout, like referring to myself in the third person, adds personality. Easy navigation and responsive design ensure a smooth and enjoyable user experience.
 
 ## Part 2: User Interaction
 
 How a user would interact with your website? For each step, briefly but clearly state the interaction type & how we should reproduce it.
 
-1. Interaction type. Click on X on page Y / scroll on page X, etc.  
-2. 
+1. Interaction Type: Click on the "Work" link in the navigation menu (on any page)
+Description: The user clicks on the "Work" link to navigate to the portfolio section, where they can view my design projects and read more about each one.
+How to Reproduce: Set up the navigation menu with links to different sections of the site (e.g., "Work," "Play," "About," "Resume"). Each link should be clickable, leading the user to the respective content section or page.
+
+2. Interaction Type: Click on a project thumbnail in the "Work" section
+Description: The user clicks on a project thumbnail (such as "StudySpot" or "Light the Muse") to see more details about each project.
+How to Reproduce: Each portfolio item should have a clickable link that leads to a separate page or expands the project description in a modal, providing more information about the project, my role, and the process.
+
+3. Interaction Type: Play the memory game on the "Play" page
+Description: The user interacts with a memory game that involves matching personal facts with corresponding doodles. The game is both fun and informative, showcasing some of my interests and personality traits.
+How to Reproduce: Set up an interactive memory game with clickable cards using JavaScript. When the user clicks a card, it flips over to reveal a personal fact or doodle. If the cards match, they stay revealed; if not, they flip back over. Include a counter for moves and a completion message when the user matches all pairs.
+
+4. Interaction Type: Click to restart the memory game
+Description: Once the user completes the memory game, they can click a "Restart" button to play again.
+How to Reproduce: Create a restart button that appears after completing the game, and upon clicking, it resets the game board, moves counter, and completion message, allowing users to play multiple rounds.
+
+5. Interaction Type: Hover effect over the about images
+Description: When the user hovers over an image in the "About" section, a subtle animation occurs to draw attention to the project.
+How to Reproduce: Use CSS hover effects to apply a transition, such as  rotating, when the user hovers over images, making the interface feel more interactive and engaging.
+
 
 ## Part 3: External Tool
 
 Describe what important external tool you used (JavaScript library, Web API, animations, or other). Following the bulleted list format below, reply to each of the prompts.
 
-1. Name of tool1  
-   * Why did you choose to use it over other alternatives? (2 sentences max)  
-   * How you used it? (2 sentences max)  
-   * What does it add to your website? (2 sentences max)  
-2. Name of tool2
+1. JavaScript (Vanilla JS for game logic)
+- Why did you choose to use it over other alternatives?
+Vanilla JavaScript is a lightweight and versatile tool, perfect for implementing simple interactive games without needing extra dependencies. It allowed me to control the game’s behavior directly and handle logic with flexibility.
+- How you used it?
+I used JavaScript to build the memory matching game’s logic, including the card-flipping mechanism, shuffle function, and tracking moves. It also handles the matching logic, move counter, and game reset functionality.
+- What does it add to your website?
+It adds an interactive, engaging element to the website, providing users with a fun way to learn more about me. It demonstrates my skills in basic game development while also adding a personal touch to the experience.
+
+2. CSS Animations (for card flipping and hover effects)
+- Why did you choose to use it over other alternatives?
+CSS animations are lightweight, easy to implement, and enhance the user experience by providing smooth transitions. They are perfect for interactive elements like card flipping and visual feedback.
+- How you used it?
+I used CSS animations to create the flip effect for the cards when clicked, as well as to add hover effects for the card images. The animations give users visual feedback, making the game feel dynamic.
+- What does it add to your website?
+It adds polish and visual appeal to the memory game, making it more immersive and engaging. The smooth animations contribute to a seamless user experience and elevate the interactivity of the game.
+
+3. Web API (for responsive layout on different devices)
+- Why did you choose to use it over other alternatives?
+The Web API allows the website to be responsive across different screen sizes, ensuring a consistent experience on mobile, tablet, and desktop devices. It was an ideal choice for optimizing the game layout.
+- How you used it?
+I utilized CSS media queries, which dynamically adjust the game layout based on the screen size, ensuring the cards are properly arranged on any device. The API also supports different screen orientations.
+- What does it add to your website?
+It ensures that the memory game and other website elements look great and are functional on a variety of devices. This enhances accessibility and user engagement by providing a smooth experience across all screen sizes.
 
 ## Part 4: Design Iteration
 
 Describe how you iterated on your prototypes, if at all, including any changes you made to your original design while you were implementing your website and the rationale for the changes. (4-8 sentences max)
+During the design process, I iterated several times on the layout and functionality of the matching game. Initially, I had planned to use a more complex card matching mechanic with multiple levels, but I simplified it to focus on a single level to keep the game more accessible and fun. I also adjusted the color scheme to ensure it was visually engaging while maintaining good contrast for readability. In the hero section, I initially planned for a larger amount of text but decided to cut it down to keep the content concise and engaging. Finally, I refined the portfolio section, opting for a cleaner grid layout to better highlight the projects. These changes were made to enhance user experience and streamline interaction, ultimately focusing on a more polished and functional design.
 
 ## Part 5: Implementation Challenge
 
 What challenges did you experience in implementing your website? (2-4 sentences max)
+The main challenge I encountered was implementing the game logic for the memory matching game, particularly the card-flipping animation and ensuring that the matching logic was bug-free. Ensuring that the game functioned smoothly across different devices also took some extra effort, especially with maintaining responsive design for various screen sizes. Debugging the JavaScript and optimizing performance for both desktop and mobile views was a bit time-consuming.
+
+
 
 ## Part 6: Generative AI Use and Reflection
 
 Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
 
 Document your use of all GenAI tools — ChatGPT, Copilot, Claude, Cursor, etc. using the template below. Add/Delete rows or bullet points if needed, and replace Tool1/Tool2 with the name of the tool.
+
+Tool 1: ChatGPT
+
+Why I Used It: ChatGPT was my primary tool throughout the project. I relied on it for brainstorming, writing content, generating code snippets, and refining my ideas. I chose ChatGPT for its ability to quickly generate text, offer suggestions, and assist with both technical and creative tasks, making it an invaluable resource throughout the development of my website.
+
+How I Used It: I used ChatGPT to help generate content for various sections of the website, including the "About" page, project descriptions for my portfolio, and the introductory text on the homepage. ChatGPT also assisted with brainstorming ideas for the interactive memory game in the "Play" section, helping me come up with fun facts to match with images. Additionally, I requested JavaScript code snippets for the game logic and the card-flipping mechanism, which I integrated into my website.
+
+What It Added to the Project: ChatGPT greatly sped up content creation by generating engaging text that I could directly use or modify. It helped ensure that the website's tone was both professional and approachable, and it improved the interactivity and user experience of the memory game by suggesting the structure and functionality of the game. Overall, ChatGPT was essential in making the project come together smoothly and efficiently, allowing me to focus more on the design and functionality of the site.
 
 ### Usage Experiences by Project Aspects
 
@@ -59,41 +116,33 @@ For the following aspects of your project, edit the corresponding table cell to 
 
 | Tool Name | Ratings | design | plan | write code | debug | \_ (other?) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| Tool1 | Usage | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No |
-| Tool1 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 | 1~7 |
-| Tool2| Usage | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No |
-| Tool2 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 | 1~7 |
+| ChatGPT | Usage | Yes | Yes | Yes | Yes | Yes |
+| ChatGPT | Productivity | 6 | 7 | 6 | 5 | n/a |
 
 
 ### Usage Reflection
 
 > Impact on your design and plan 
 * It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
-  2. Tool2:
+  1. Tool1 (ChatGPT): It helped me develop clear project goals and design concepts, as expected. For example, I used ChatGPT to generate ideas for structuring the homepage and portfolio section, which aligned with my initial vision of showcasing my work in a clean, visually appealing way.
 * It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
-  2. Tool2:
+  1. Tool1 (ChatGPT): It occasionally suggested features or design approaches I hadn't planned for, such as interactive animations, which were a bit outside my original scope. For example, ChatGPT suggested adding hover animations to portfolio items, which I hadn't considered but ultimately decided to implement.
 * GenAI tool did/did not influence my final design and implementation plan because … For example, 
-  1. Tool1: 
-  2. Tool2:
+  1. Tool1 (ChatGPT): It did influence my design and implementation plan, especially by offering different perspectives and solutions for content and design. For example, it helped me refine the text for my homepage and portfolio descriptions to better engage users.
+
 
 > Use patterns
 * I accepted the generations when …  For example, 
-  1. Tool1: this tool once suggested … and I adjusted my design according to the suggestion because … 
-  2. Tool2: 
+  1. Tool1 (ChatGPT): This tool once suggested restructuring the homepage to highlight a personal introduction before diving into the portfolio. I accepted this suggestion because it provided a better flow and made the site more user-friendly, giving visitors a clear sense of who I am before exploring my work. 
 * I critiqued/evaluated the generated suggestions by … For example, 
-  1. Tool1: this tool once suggested … but I modified/rejected the suggestion because … 
-  2. Tool2: 
+  1. Tool1 (ChatGPT): This tool once suggested using a dark color palette for the homepage, but I rejected the suggestion because it didn’t align with the light, fresh aesthetic I had planned. I opted for a lighter color scheme to make the website feel more inviting and less intense.
 
 
 > Pros and cons of using GenAI tools
 * Pros
-  1. Tool1: 
-  2. Tool2:
+  1. Tool1 (ChatGPT): It provided quick suggestions and creative ideas for structuring my website content, which saved time. Additionally, it helped refine the tone and style of my text, making it more engaging and consistent.
 * Cons
-  1. Tool1: 
-  2. Tool2:
+  1. Tool1 (ChatGPT): Some suggestions felt a bit generic, and I had to spend time customizing them to fit my personal style and project needs. For example, some of the code snippets it provided needed significant modification to integrate seamlessly with my design.
 
 
 ### Usage Log
@@ -111,11 +160,15 @@ Document the changes and progress of your project. How have you followed or chan
 
 ## Implementation Plan Updates
 
-- [ ] ...
+- Since the initial proposal, my approach to the final project has evolved as I introduced a fun and interactive element to my portfolio— a matching game that reveals fun facts about me. This game was inspired by feedback suggesting more interactive elements to engage visitors. The key update to the implementation plan is the integration of this memory game into my personal portfolio. This game serves as a creative way to engage users while showcasing fun, personal facts about me.
+
+The matching game will be fully integrated into the About Me section of my portfolio, adding interactivity to the more informational areas of the site. The user will flip cards that contain both personal phrases and images related to each phrase, making the game both entertaining and informative. This interactive feature will not only make the page more engaging but also personalize the experience for visitors.
 
 ## Generative AI Use Plan Updates
 
-- [ ] ...
+Content Refinement: ChatGPT continues to assist in rephrasing and refining the personal facts that will appear in the matching game. The aim is to make them concise, engaging, and fun, keeping the tone light and accessible.
+Interaction Design: The AI has been useful for brainstorming how to present these facts in an engaging way, ensuring the game is not only interactive but also a valuable piece of my portfolio.
+Troubleshooting: I’m using AI to help me troubleshoot any coding challenges that arise while implementing the game, especially related to animations and game state management (e.g., flipping cards and checking matches).
 
 Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-generative-ai-use-and-reflection).
 

@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E1E7FE;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #4B8BF9;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 50px auto;
+    gap: 40px;
+}
+
+.hero-content {
+    width: 55%;
+    flex-grow: 1;
+    padding-right: 40px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.hero h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.hero .small-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 30px;
+}
+
+.hero .btn:hover {
+    background-color: #4B8BF9;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-image img {
+    width: 600px;
+    height: auto;
+}
+
+.portfolio {
+    background-color: black;
+    color: white;
+    padding: 60px 20px;
+    position: relative;
+    margin-top: 120px;
+}
+
+.portfolio::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url('../final-project/portfolio/wavess.svg') no-repeat center bottom;
+    background-size: cover;
+}
+
+.portfolio-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portfolio-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.portfolio-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.portfolio-item {
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.project-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.project-content img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-text {
+    width: 45%;
+    padding-left: 20px;
+}
+
+.project-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.project-subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.coming-soon {
+    font-size: 1.2rem;
+    font-weight: medium;
+    color: #e0c2ff;
+    margin-bottom: 20px;
+}
+
+.project-btn {
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid white;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.project-btn:hover {
+    background-color: white;
+    color: black;
+    border-color: #4B8BF9;
+}
+
+.project-title:hover, .project-subtitle:hover {
+    text-decoration: underline;
+    color: #4B8BF9;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    gap: 40px;
+}
+
+.about-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-images img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about-images img:hover {
+    transform: rotate(4deg);
+    box-shadow: 0 0 15px 5px rgba(0, 123, 255, 0.7);
+}
+
+.about-text {
+    flex: 2;
+    max-width: 700px;
+}
+
+.about-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-text h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.memory-game {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.memory-game h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.memory-game p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+#game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 15px;
+    justify-content: center;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-front, .card .card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+}
+
+.card .card-front {
+    background-color: #fff;
+}
+
+.card .card-back {
+    background-color: #007BFF;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    transform: rotateY(180deg);
+}
+
+.card.flipped .card-front {
+    transform: rotateY(180deg);
+}
+
+.card.flipped .card-back {
+    transform: rotateY(0);
+}
+
+.game-status {
+    margin-top: 30px;
+}
+
+#game-completion {
+    display: none;
+    font-size: 1.5rem;
+    color: green;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    background-color: #4B8BF9;
+}
+
+#restart-button {
+    margin-top: 20px;
+}
+
+.card .card-front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+    background: url('../final-project/portfolio/lanalana.svg') no-repeat center center;
+    background-size: contain;
+    background-color: #E1E7FE;
+}
+
+.card-front .card-image {
+    max-width: 80%;
+    height: auto;
+}
+
+.card-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    text-align: center;
+}
+
+.card-back .card-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.card-back .card-image {
+    width: 70%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.card.flipped .card-front {
+    transform: rotateY(180deg);
+}
+
+.card.flipped .card-back {
+    transform: rotateY(0);
+}
+
+.card .card-back {
+    transform: rotateY(180deg);
+    background-color: #fff;
+    padding: 10px;
+}
+
+.card .card-front {
+    background: url('../final-project/portfolio/lanalana.svg') no-repeat center center;
+    background-size: cover;
+}
+
+.card.matched .card-front,
+.card.matched .card-back {
+    transform: rotateY(0);
+}
+
+@media (max-width: 768px) {
+    #game-container {
+        grid-template-columns: repeat(3, 150px);
+    }
+    
+    .card {
+        width: 150px;
+        height: 150px;
+    }
+}
